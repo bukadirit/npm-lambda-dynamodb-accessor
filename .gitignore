@@ -1,0 +1,10 @@
+Jenkinsfile
+
+/.aws-sam/
+/lib/
+/node_modules/
+
+/coverage-report/
+
+/.nyc_output/
+/npm-apmod-express-lambda.iml

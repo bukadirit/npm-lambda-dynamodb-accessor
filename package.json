@@ -1,0 +1,30 @@
+{
+  "name": "npm-lambda-dynamodb-accessor",
+  "version": "1.0.0",
+  "description": "npm module created for the purposes of making aws dynamodb access easier accross lambdas",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm run test",
+    "compile": "tsc --build tsconfig.build.json",
+    "local-build": " npm install "
+  },
+  "author": "Bukadiri Trawally",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "2.536.0",
+    "@types/chai": "^4.2.12",
+    "@types/chai-as-promised": "7.1.0",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^13.1.6",
+    "@types/sinon": "4.3.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "7.1.1",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.3",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
